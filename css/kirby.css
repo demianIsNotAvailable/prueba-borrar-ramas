@@ -1,0 +1,1029 @@
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 0;
+    margin-top: 5em;
+}
+
+/* Main body, consists of upper half (body1), hinge (body2) and lower half (body3) */
+
+#body0 {
+
+    display: flex;
+    flex-direction: column;
+   
+    height: 48em;
+    width: 48em;
+}
+
+/* Upper half (body1) starts here. Made up of 3 main parts (Left, Center, Right), each divided into numbered sections, top-to-bottom and left-to-right as applicable. */
+
+#body1 {
+
+    display: flex;
+    
+    height: 22em;
+    width: 47.4em;
+
+
+}
+
+ /* Upper Left starts here */
+
+#b1left {
+
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    width: 8em;
+
+}
+
+#b1left1 {
+
+    display: flex;
+    justify-content: center;
+
+    height: 40%;
+    width: 8em;
+
+    border-top-style: solid;
+    border-left-style: solid;
+    border-width: 0.3em;
+    border-color: rgb(22, 22, 22);
+    border-radius: 15% 0% 0% 0%;
+
+    background: rgb(39,37,37);
+    background: linear-gradient(0deg, rgba(39,37,37,1) 87.5%, rgba(78,74,74,1) 100%);
+}
+
+#b1left2 {
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    height: 20%;
+    width: 8em;
+
+    border-left-style: solid;
+    border-width: 0.3em;
+    border-color: rgb(22, 22, 22);
+
+    background-color: rgb(39, 37, 37);
+}
+
+#speakerLeft {
+    
+    display: flex;
+    flex-direction: column;
+
+    height: 2em;
+    width: 3em;
+
+    margin-right: -1em;
+
+}
+
+.speaker1 {
+
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 2em;
+    width: 4em;
+
+}
+
+.speakerHole {
+
+    height: 0.4em;
+    width: 0.4em;
+
+    border-radius: 50%;
+
+    background-color: black;
+}
+
+#b1left3 {
+
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+
+    height: 40%;
+    width: 8em;
+
+    border-left-style: solid;
+    border-width: 0.3em;
+    border-color: rgb(22, 22, 22);
+    border-radius: 0% 0% 0% 10%;
+
+    background-color: rgb(39, 37, 37);
+}
+
+#gapLeft {
+
+    height: 0.2em;
+    width: 6em;
+
+    margin-left: -0.25em;
+
+    background-color: white;
+}
+
+/* Upper Center starts here */
+
+#b1center {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 21.7em;
+    width: 31em;
+
+    border-top-style: solid;
+    border-top-width: 0.3em;
+    border-top-color:rgb(39, 37, 37);
+
+    background: rgb(39,37,37);
+    background: linear-gradient(0deg, rgba(39,37,37,1) 95%, rgba(78,74,74,1) 100%);
+}
+
+.screen {
+
+    height: 17em;
+    width: 24em;
+
+    border-style: solid;
+    border-width: 1em;
+    border-color:rgb(22, 22, 22);
+    border-radius: 1% 1% 1% 1%;
+
+    background-color: rgba(73, 71, 50, 0.349);
+}
+
+#loading {
+
+    height: 100%;
+    width: 100%;
+}
+
+#kirby {
+
+    height: 100%;
+    width: 100%
+}
+/* Upper Right starts here. */
+
+#b1right {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+#b1right1 {
+    display: flex;
+    justify-content: center;
+
+    height: 40%;
+    width: 8em;
+
+    border-top-style: solid;
+    border-right-style: solid;
+    border-width: 0.3em;
+    border-color: rgb(22, 22, 22);
+    border-radius: 0% 15% 0% 0%;
+
+    background: rgb(39,37,37);
+    background: linear-gradient(0deg, rgba(39,37,37,1) 87.5%, rgba(78,74,74,1) 100%);
+}
+
+#b1right2 {
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    height: 20%;
+    width: 8em;
+
+    border-right-style: solid;
+    border-width: 0.3em;
+    border-color: rgb(22, 22, 22);
+
+    background-color: rgb(39, 37, 37);
+}
+
+#speakerRight {
+    
+    display: flex;
+    flex-direction: column;
+
+    height: 2em;
+    width: 4em;
+
+    margin-left: -2em;
+}
+
+#b1right3 {
+
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+
+    height: 38.8%;
+    width: 8em;
+
+    border-right-style: solid;
+    border-width: 0.3em;
+    border-color: rgb(22, 22, 22);
+    border-radius: 0% 0% 6% 0%;
+
+    background-color: rgb(39, 37, 37);
+}
+
+#gapRight {    
+
+    height: 0.2em;
+    width: 6em;
+ 
+    margin-right: -0.3em;
+    
+    background-color: white;
+}
+
+
+.square {
+
+    height: 1em;
+    width: 1em;
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    border-radius: 5% 5% 5% 5%;
+
+    background-color: rgb(45,45,45);
+}
+
+#squareLeft {
+
+    margin-right: -4.75em;
+}
+#squareRight {
+
+    margin-left: -4.75em
+}
+
+/* Hinge (body2) starts here. */
+    
+#body2 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    height: 4em;
+    width: 47.4em;
+
+}
+
+#b2left {
+
+    display: flex;
+
+    height: 4em;
+    width: 6em;
+  
+}
+
+#b2left1 {
+
+    display: flex;
+    flex-direction: column;
+    height: 4em;
+    width: 2em;
+
+    
+}
+
+#b2L1top {
+
+    height: 2em;
+    width: 2em;
+
+    border-radius: 100% 0 0 0;
+    background: linear-gradient(rgba(39,37,37,1) 0%, rgba(78,74,74,1) 100%);
+}
+
+#b2L1bottom {
+
+    height: 2em;
+    width: 2em;
+
+    border-left-style: solid;
+    border-left-width: 0.15em;
+    border-left-color: rgb(22, 22, 22);
+
+    background-color: rgb(39, 37, 37);
+}
+
+#b2L1bottomRound {
+
+    height: 2em;
+    width: 2em;
+
+    border-bottom-style: solid;
+    border-bottom-width: 0.1em;
+    border-color: black;
+    border-radius: 0 0 0 100%;
+
+    background: linear-gradient(rgba(78,74,74,1) 0%, rgba(20,20,20,1) 100%);
+}
+
+
+#b2left2 {
+
+    height: 4em;
+    width: 4em;
+
+    border-bottom-style: solid;
+    border-bottom-width: 0.1em;
+    border-color: black;
+
+    background: linear-gradient(180deg, rgba(39,37,37,1) 0%, rgba(78,74,74,1) 50%, rgba(20,20,20,1) 100%);
+}
+
+#b2center {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 3.7em;
+    width: 38em;
+
+    border-style: solid;
+    border-width: 0.2em;
+    border-left-width: 0.2em;
+    border-right-width: 0.2em;
+    border-bottom-width: 0.2em;
+    
+    border-left-color: black;
+    border-right-color: black;
+    border-bottom-color: rgb(22, 22, 22);
+    
+
+    background: rgb(39,37,37);
+    background: linear-gradient(rgba(39,37,37,1) 0%, rgba(78,74,74,1) 50%, rgba(20,20,20,1) 100%);
+}
+
+#b2center2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#micLeft {
+
+    height: 1.5em;
+    width: 2.5em;
+
+}
+
+#micro {
+
+    height: 1.5em;
+    width: 0.5em;
+
+    background-color: black;
+}
+
+#micRight {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    height: 3.65em;
+    width: 2.5em;
+
+    color: rgba(50, 50, 50, 0.75);
+    background: rgb(39,37,37);
+    background: linear-gradient(rgba(39,37,37,1) 0%, rgba(78,74,74,1) 50%, rgba(20,20,20,1) 100%);
+
+}
+
+#b2right {
+
+    display: flex;
+
+    height: 4em;
+    width: 6em;
+
+    border-left-style: solid;
+    border-left-width: 0.1em;
+    border-left-color: rgb(39, 37, 37); 
+
+}
+
+#b2right1 {
+
+    display:flex;
+    justify-content: flex-end;
+
+    height: 4em;
+    width: 4em;
+
+    background: linear-gradient(180deg, rgba(39,37,37,1) 0%, rgba(78,74,74,1) 50%, rgba(20,20,20,1) 100%);
+}
+
+#b2right2 {
+
+    display: flex;
+    flex-direction: column;
+    height: 4em;
+    width: 2em;
+    
+}
+
+#b2R2top {
+
+    height: 2em;
+    width: 2em;
+
+    border-radius: 0 100% 0 0;
+    background: linear-gradient(rgba(39,37,37,1) 0%, rgba(78,74,74,1) 100%);
+}
+
+#b2R2bottom {
+
+    height: 2em;
+    width: 2em;
+
+    background-color: rgb(39, 37, 37);
+}
+
+#b2R2bottomRound {
+
+    height: 2em;
+    width: 2em;
+
+
+    border-radius: 0 0 100% 0;
+
+    background: linear-gradient(rgba(78,74,74,1) 0%, rgba(20,20,20,1) 100%);
+}
+
+.luz {
+
+    height: 2em;
+    width: 0.5em;
+
+    margin-top: 0.3em;
+    margin-left: 0.4em;
+
+    background: rgb(36, 156, 36)
+}
+/* Lower half (body3) starts here */
+
+#body3 {
+
+    display: flex;
+  
+    height: 22em;
+    width: 47.4em;
+
+}
+
+/* Lower left starts here. Includes directional buttons (arrows)*/
+
+#b3left {
+
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    width: 8em;
+}
+
+#b3left1 {
+
+    display: flex;
+
+    height: 6.5em;
+    width: 8em;
+
+    border-left-style: solid;
+    border-left-width: 0.3em;
+    border-color: rgb(22, 22, 22);
+
+    background-color: rgb(39, 37, 37)
+}
+
+#b3left2 {
+
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+
+    height: 6.5em;
+    width: 8em;
+
+    border-left-style: solid;
+    border-left-width: 0.3em;
+    border-color: rgb(22, 22, 22);
+
+
+    background-color: rgb(39, 37, 37);
+}
+
+
+#arrows {
+
+    display:flex;
+    flex-direction: column;
+
+    height: 6em;
+    width: 6em;
+
+}
+
+#arrows1 {
+
+    display: flex;
+    justify-content: center;
+
+    height: 2em;
+    width: 6em;
+
+    background-color: rgb(39, 37, 37);
+}
+
+#arrowUp {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 1.8em;
+    width: 1.6em;
+
+    border-style: solid;
+    border-width: 0.2em 0.2em 0 0.2em;
+    border-color: black;
+
+    background-color: rgb(25, 25, 25)
+}
+
+#arrowUpLine {
+
+    height: 1em;
+    width: 0.2em;
+
+    background-color: white;
+}
+
+#arrows2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 2em;
+    width: 6em;
+
+    background-color: white;
+}
+
+#arrowLeft {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 1.6em;
+    width: 1.8075em;
+
+    border-style: solid;
+    border-width: 0.2em 0em 0.2em 0.2em;
+    border-color: black;
+
+    background-color: rgb(25, 25, 25)
+
+}
+
+#arrowLeftLine {
+
+    height: 0.2em;
+    width: 1em;
+
+    background-color: white;
+}
+
+#arrowsCenter {
+
+    height: 2em;
+    width: 2em;
+ 
+    background: radial-gradient(circle, rgba(39,37,37,1) 0%, rgba(25,25,25,1) 75%);
+
+    background-color: rgb(25, 25, 25)
+}
+
+#arrowRight {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 1.6em;
+    width: 1.8075em;
+
+    border-style: solid;
+    border-width: 0.2em 0.2em 0.2em 0em;
+    border-color: black;
+
+    background-color:rgb(25, 25, 25)
+
+}
+
+#arrowRightLine {
+
+    height: 0.2em;
+    width: 1em;
+
+    background-color: white;
+}
+
+#arrows3 {
+
+    display: flex;
+    justify-content: center;
+
+    height: 2em;
+    width: 6em;
+
+    background-color: rgb(39, 37, 37);
+}
+
+#arrowDown {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 1.8em;
+    width: 1.6em;
+
+    border-style: solid;
+    border-width: 0em 0.2em 0.2em 0.2em;
+    border-color: black;
+
+    background-color: rgb(25, 25, 25)
+}
+
+#arrowDownLine {
+
+    height: 1em;
+    width: 0.2em;
+
+    background-color: white;
+}
+
+#b3left3 {
+
+    height: 9em;
+    width: 8em;
+
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-left-width: 0.3em;
+    border-bottom-width: 0.3em;
+    border-color: rgb(22, 22, 22);
+    border-radius: 0 0 0 15%;
+    background-color:rgb(39, 37, 37);
+}
+
+/* Lower center part is here */
+
+#b3center {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 21.75em;
+    width: 31em;
+
+    border-bottom-style: solid;
+    border-bottom-width: 0.3em;
+    border-bottom-color:rgb(39, 37, 37);
+
+    background-color: rgb(39, 37, 37);
+}
+
+/*Lower right here. buttons pad + SEL + START (interactive) */
+
+#b3right {
+
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    width: 8.5em;
+
+}
+
+#b3right1 {
+
+    height: 5em;
+    width: 8.2em;
+    
+    border-right-style: solid;
+    border-right-width: 0.3em;
+    border-color: rgb(22, 22, 22);
+    
+    background-color:rgb(39, 37, 37)
+}
+
+#b3right2 {
+
+    display: flex;
+    justify-content: flex-start;
+
+
+    height: 8em;
+    width: 8.2em;
+
+    border-right-style: solid;
+    border-right-width: 0.3em;
+    border-color: rgb(22, 22, 22);
+    
+    background-color:rgb(39, 37, 37)
+}
+
+#buttons {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 6.9em;
+    width: 6.9em;
+}
+
+#buttons1 {
+
+    display: flex;
+    justify-content: center;
+
+    height: 2.3em;
+    width: 6.9em;
+
+}
+
+#buttonX {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 1.8em;
+    width: 1.8em;
+
+    border-style: solid;
+    border-width: 0.2em;
+    border-color: black;
+    border-radius: 50%;
+
+    background-color: rgb(25, 25, 25)
+}
+
+#X {
+    font-family: sans-serif;
+    font-size:large;
+    color: white;
+
+    background-color: rgb(25, 25, 25);
+}
+
+#buttons2 {
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+ 
+    height: 2.3em;
+    width: 6.9em;
+
+}
+
+#buttonY {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 1.8em;
+    width: 1.8em;
+
+    border-style: solid;
+    border-width: 0.2em;
+    border-color: black;
+    border-radius: 50%;
+
+    background-color: rgb(25, 25, 25)
+
+}
+
+#Y {
+    font-family: sans-serif;
+    font-size:large;
+    color: white;
+
+    background-color: rgb(25, 25, 25);
+}
+
+#buttonsCenter {
+
+    height: 2em;
+    width: 2em;
+}
+
+#buttonA {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 1.8em;
+    width: 1.8em;
+
+    border-style: solid;
+    border-width: 0.2em;
+    border-color: black;
+    border-radius: 50%;
+
+    background-color: rgb(25, 25, 25)
+
+}
+
+#A {
+    font-family: sans-serif;
+    font-size:large;
+    color: white;
+
+    background-color: rgb(25, 25, 25);
+}
+
+#buttons3 {
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    height: 2.3em;
+    width: 6.9em;
+
+}
+
+#buttonB {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 1.8em;
+    width: 1.8em;
+
+    border-style: solid;
+    border-width: 0.2em;
+    border-color: black;
+    border-radius: 50%;
+
+    background-color: rgb(25, 25, 25)
+}
+
+#B {
+    font-family: sans-serif;
+    font-size:large;
+    color: white;
+
+    background-color: rgb(25, 25, 25);
+}
+
+#b3right3 {
+
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+
+    height: 9em;
+    width: 8.2em;
+
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-width: 0.3em;
+    border-bottom-width: 0.3em;
+    border-color: rgb(22, 22, 22);
+    border-radius: 0 0 15% 0;
+
+    background-color:rgb(39, 37, 37)
+
+}
+
+#b3r3top {
+
+    height: 3em;
+    width: 2em;
+}
+
+#b3r3bottom {
+    display: flex;
+    flex-direction: column;
+
+    height: 3em;
+    width: 6em;
+
+    margin-left: -1em;
+}
+
+#startBox {
+
+    display: flex;
+    justify-content: flex-start;
+
+    height: 1.5em;
+    width: 6em;
+}
+
+#buttonStart {
+
+    height: 0.75em;
+    width: 0.75em;
+
+    border-style: solid;
+    border-width: 0.15em;
+    border-color: black;
+    border-radius: 50%;
+
+    background-color: rgb(39, 37, 37) 
+}
+
+#Start {
+
+    margin-left: 0.2em;
+    margin-top: 0.4em;
+
+    font-family: sans-serif;
+    font-size: x-small;
+    font-weight: bold;
+    color: white
+}
+
+#selectBox {
+
+    display: flex;
+    justify-content: flex-start;
+
+    height: 1.5em;
+    width: 6em;
+}
+
+#buttonSelect {
+
+    height: 0.75em;
+    width: 0.75em;
+
+    border-style: solid;
+    border-width: 0.15em;
+    border-color: black;
+    border-radius: 50%;
+
+    background-color: rgb(39, 37, 37) 
+}
+
+#Select {
+
+    margin-left: 0.2em;
+    margin-top: 0.4em;
+
+    font-family: sans-serif;
+    font-size: xx-small;
+    font-weight: bold;
+    color: white
+}
